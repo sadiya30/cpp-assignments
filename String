@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string dna="";
+    cout<<"Enter a String DNA";
+     cin>>dna;
+     int i= dna.length();
+     while(i>=0)
+   {
+       cout<<dna[i];
+       i--;
+
+   }
+
+    return 0;
+}
+
