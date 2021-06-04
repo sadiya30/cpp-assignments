@@ -1,1 +1,22 @@
+ #include <iostream>
 
+using namespace std;
+int powfun(int x , int y)
+{ 
+    int c;
+  for(int i=1; i<=y; i++)
+  {
+  c= x*x;
+  }
+  return (c);
+}
+
+int main()
+{
+int num1= 2;
+int num2=2;
+int p=powfun(num1,num2);
+cout<<"the result is:"<<p;
+
+    return 0;
+}
