@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+string s;
+cout<<"Enter DNA sequence";
+cin>>s;
+int n= sizeof(s);
+cout<<"The length of DNA sequence is "<<n<<"\n";
+for(int i=0;i<=5 ; i++)
+{
+    cout<<s[i];
+}
+return 0;
+}
