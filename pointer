@@ -1,0 +1,11 @@
+int main()
+{
+int a=29;
+int *pa=&a;
+cout<<"The value of a is "<<*pa<<"\n";
+cout<<"The address of a is "<<pa<<"\n";
+*pa=01;
+cout<<"The changed value is "<<*pa;
+	return 0;
+}
+
