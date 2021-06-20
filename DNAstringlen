@@ -1,0 +1,15 @@
+ #include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+string seq;
+cout<<"Enter a DNA sequence"<<"\n";
+cin>>seq;
+cout<<seq.length()<<"\n";
+for(int i=0; i<=4; i++)
+{
+    cout<<seq[i]<<"\n";
+}
+return 0;    
+}
