@@ -1,0 +1,27 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int main()
+{
+   string str;string i; string sum;
+   cout<<"Enter a string: "<<"\n";
+   cin>>str;
+for(int j=str.length()-1; j>=0; j--)
+{
+    i=str[j];
+    sum+=i;
+}
+cout<<sum<<"\n";
+cout<<str<<"\n";
+cout<<sum.length();
+cout<<str.length();
+    int x=sum.compare(str);
+   if(x==0) {
+
+        cout<<"Palindrome";
+    }
+    else{
+        cout<<"Not a Palindrome";
+    }
+    return 0;
+}
