@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+class classroom{
+    public:
+    int student;
+    int teacher;
+    int staff;
+    string cp;
+    void classinfo(){
+         cout <<"No of students in class 5th is " <<student<<endl; 
+         cout <<"No of teachers for class 5th is " <<teacher<<endl; 
+         cout <<"No of staffs in class 5th is " <<staff<<endl; 
+         cout <<"The class prefect for class 5th is " <<cp<<endl;
+    }
+    
+};
+
+int main()
+{
+    classroom fifth;
+    fifth.student=10;
+    fifth.teacher=7;
+    fifth.staff=5;
+    fifth.cp="Ram";
+    fifth.classinfo();
+   return 0;
+}
