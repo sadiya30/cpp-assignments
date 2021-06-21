@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class Variable{
+    public:
+    int x,y;
+    Variable()
+    {
+         x=29;
+         y=01;
+    }
+};
+int main()
+{
+    Variable num;
+    cout<<"the number is "<<num.x<<"\n";
+    cout<<"the other number is "<<num.y;
+    return 0;
+}
