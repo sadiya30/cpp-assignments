@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+class protein{
+    public:
+    string name;
+    int length;
+    string organism;
+    string function;
+    void getname(){
+        cout<<"Enter the name of protein"<<"\n";
+        cin>>name;
+    }
+     void getlength(){
+        cout<<"Enter the length of protein"<<"\n";
+        cin>>length;
+    }
+     void getfunction(){
+        cout<<"Enter the function of protein"<<"\n";
+        cin>>function;
+    }
+     void getorganism(){
+        cout<<"Enter the name of organism in which that protein is found"<<"\n";
+        cin>>organism;
+    }
+    void protshow(){
+         cout <<"The name of protein is " <<name<<endl; 
+         cout <<"The length of protein is " <<length<<endl; 
+         cout <<"The function of protein is is " <<function<<endl; 
+         cout <<"The organism in which protein is found is " <<organism<<endl;
+    }
+    
+};
+
+int main()
+{
+    protein trypsin;
+    trypsin.getname();
+   trypsin.getlength();
+    trypsin.getfunction();
+    trypsin.getorganism();
+    trypsin.protshow();
+   return 0;
+}
