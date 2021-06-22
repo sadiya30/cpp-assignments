@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Overloading{
+   public:
+   int x;
+   double w;
+int count(int x){
+         int sum=x+10;
+         return sum;
+    }
+    double count(double w)
+    {
+       double add= w+10.9898;
+       return add;
+    }
+};
+
+int main()
+{
+    Overloading number;
+    number.x=3;
+    number.w=33.3333;
+   cout<<number.count(number.x)<<endl;
+   cout<<number.count(number.w);
+    return 0;
+}
