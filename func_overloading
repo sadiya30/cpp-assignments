@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int calculation(int x, int y)
+{
+    return x+y;
+}
+float calculation(float a, float b)
+{
+    return a/b;
+}
+int main()
+{
+    cout<<"Function overloading demonstration"<<"\n";
+    int x= 29;
+    int y=03;
+    cout<<calculation(x,y)<<"\n";
+    float a= 30;
+    float b= 4;
+    float division= calculation(a,b);
+    cout<<division;
+    return 0;
+}
