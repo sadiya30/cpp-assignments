@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class Peptide{
+    public:
+    string seq;
+    int seq_length;
+    Peptide(){
+     seq="ATGCCGTAG";
+     seq_length=9;
+    }
+    void show_peptide(){
+        cout<<"The sequence of peptide is "<<seq<<"\n";
+        cout<<"the length of peptide is "<<seq_length<<"\n";
+    }
+    ~Peptide(){
+        cout<<"Code ends";
+    }
+};
+int main(){
+    Peptide pep1;
+    pep1.show_peptide();
+    return 0;
+}
