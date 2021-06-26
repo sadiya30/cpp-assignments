@@ -1,0 +1,20 @@
+ #include<iostream>
+   using namespace std;
+   class Edible{
+       public:
+       void sweet(){
+           cout<<"It is soft and tastes sweet ";
+       }
+   }
+   };
+   class Chocolate:public Edible{
+       public:
+       string name="5-Star";
+   };
+   int main()
+   {
+       Chocolate myfav;
+      cout<<"Name of my favourite chocolate is "<<myfav.name<<endl;
+       myfav.sweet();
+       return 0;
+   }
