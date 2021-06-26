@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+class Food{
+    public:
+    string cusine;
+    Food(){
+        cout<<"There are different types of cusine"<<"\n";
+    }
+};
+class Italian{
+    public:
+    Italian(){
+    cout<<"Pizza is italian"<<"\n"; }
+};
+class Chinese{
+    public:
+    Chinese(){
+    cout<<"Noodles is chinese"<<endl;}
+};
+class Indian: public Food, public Italian, public Chinese{
+    public:
+    Indian(){
+    cout<<"Dosa is Indian food"<<endl;
+    }
+};
+int main(){
+  Indian myfood;
+ 
+  return 0;
+}
